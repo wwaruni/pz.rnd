@@ -1,0 +1,7 @@
+pz_proxy_platform_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: PzProxyPlatformBundle:Default:index }
+
+pz_proxy_platform_play:
+    path: /play
+    defaults: { _controller: PzProxyPlatformBundle:Default:play }
